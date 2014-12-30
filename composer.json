@@ -1,0 +1,22 @@
+{
+  "name": "bestform/divider",
+  "type": "library",
+  "description": "Service to divide a given amount into given parts",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthias Derer",
+      "email": "matthias.derer@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit" : "@stable"
+  },
+  "autoload": {
+    "psr-4": { "Bestform\\Divider\\": "" }
+  }
+}
